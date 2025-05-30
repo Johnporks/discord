@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+    .custom-background {
+      background: 
+        linear-gradient(to bottom, #000000, #4f46e5, #000000),
+        url('https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664f212db4cf28be9d091295_Texture%207.webp');    
+      background-blend-mode: overlay;
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+    .button svg {
+      flex-shrink: 0;
+      width: 1em;
+      height: 1em;
+    }
